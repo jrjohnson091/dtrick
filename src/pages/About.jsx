@@ -1,7 +1,9 @@
-
+import { Link } from 'react-router-dom'
 export default function About() {
     return (
         <main>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
             <h1>About</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, modi quos molestiae, quam sequi culpa enim reprehenderit animi officia sit deleniti delectus, maxime praesentium temporibus fuga ullam. Laborum, earum repudiandae!</p>
             <p>Dolore vel quis repudiandae nihil provident? Iure laboriosam aperiam facilis totam deserunt ipsum inventore quis quia. Nulla eum blanditiis quis, voluptatum rem, sint temporibus dolore assumenda deleniti accusantium quas et.</p>
